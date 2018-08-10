@@ -76,15 +76,15 @@ button {
 }
 
 #pic1 {
-  background: green;
+  background: url(img/CSS.png);
 }
 
 #pic2 {
-  background: red;
+  background: url(img/rails.png);
 }
 
 #pic3 {
-  background: blue;
+  background: url(img/Csharp.png);
 }
 
 .question {
