@@ -13,11 +13,19 @@ $(document).ready(function() {
 
     if (score >= 13){
       $("#net").fadeIn();
+      $('button#home').fadeIn();
     } else if (score <= 12 && score >= 8){
       $("#ruby").fadeIn();
+      $('button#home').fadeIn();
     } else {
       $("#css").fadeIn();
+      $('button#home').fadeIn();
     }
+
+    $('button#home').click(function() {
+      $('#outcome').fadeOut();
+      $('#stack').fadeIn();
+    });
   });
 });
 });
