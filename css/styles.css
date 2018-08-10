@@ -4,8 +4,14 @@ body {
   width: 100%;
 }
 
-#net, #ruby, #css, #home, #stack, #quiz {
+button {
+  width: 400px;
+  height: 50px;
+}
+
+#net, #ruby, #css, #refresh, #stack, #quiz {
   display: none;
+  padding-top: 70px;
 }
 /* Navbar */
 #navbar {
@@ -40,12 +46,13 @@ body {
 }
 
 /* Main content */
-.wrap {
-  margin: 0 5%;
+
+#start {
+  padding: 70px 20px 10px 20px;
 }
 
 .picture {
-  padding: 30px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -55,8 +62,9 @@ body {
   padding: 2px;
   width: 305px;
   display: inline-block;
-  height: 500px;
+  height: 400px;
 }
+
 .pic {
   width: 250px;
   height: 250px;
@@ -79,8 +87,16 @@ body {
   background: blue;
 }
 
+.question {
+  padding: 0 20px;
+}
 
-button {
-  margin: 0 auto;
-  width: px;
+.question label {
+  padding: 10px;
+}
+
+#btn {
+  margin: 30px;
+  width: 80px;
+  border-radius: 4px;
 }
