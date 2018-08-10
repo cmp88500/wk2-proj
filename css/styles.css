@@ -24,11 +24,27 @@ a {
   padding-top: 70px;
 }
 
+#rubyrails {
+  background: rgb(180,67,54);
+  background: linear-gradient(121deg, rgba(180,67,54,1) 0%, rgba(217,200,198,1) 35%, rgba(200,117,112,1) 77%);
+}
+
+#csharpnet {
+  background: rgb(196,161,200);
+  background: linear-gradient(121deg, rgba(196,161,200,1) 0%, rgba(146,105,154,1) 35%, rgba(143,117,157,1) 77%);
+}
+
+#cssreact {
+  background: rgb(161,161,200);
+  background: linear-gradient(121deg, rgba(161,161,200,1) 0%, rgba(107,105,154,1) 35%, rgba(119,117,157,1) 77%);
+}
+
 /* Navbar */
 #navbar {
   position: fixed;
   width: 100%;
 }
+
 
 .logo {
   position: fixed;
@@ -36,12 +52,20 @@ a {
   margin: 15px 40px;
 }
 
+.blanc {
+  color: #fff;
+}
+
 #navbar ul {
   list-style: none;
   height: 40px;
   background: rgb(54,180,151);
   background: linear-gradient(121deg, rgba(54,180,151,1) 0%, rgba(133,198,189,1) 35%, rgba(77,174,169,1) 77%);
+}
 
+#navbar ul.dark {
+  background: rgb(73,73,87);
+  background: linear-gradient(121deg, rgba(73,73,87,1) 0%, rgba(26,24,45,1) 35%, rgba(43,43,54,1) 77%);
 }
 
 #navbar ul li {
