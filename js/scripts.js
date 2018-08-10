@@ -31,14 +31,11 @@ $(document).ready(function() {
     }
 
     $('button#home').click(function() {
-      $('#outcome').fadeOut();
-      $('#start').fadeIn();
+      location.reload();
 
-    $('button#quiz').click(function() {
-      $('#outcome').fadeOut();
-      $('#stack').fadeIn();
     });
     });
   });
 });
-});
+
+//location.reload = https://stackoverflow.com/questions/5404839/how-can-i-refresh-a-page-with-jquery
