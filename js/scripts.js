@@ -1,4 +1,9 @@
 $(document).ready(function() {
+  $('button#quest').click(function() {
+    $('#start').fadeOut();
+    $('#stack').fadeIn();
+  });
+
   $('button#btn').click(function() {
   $('form#stack').submit(function(event) {
     event.preventDefault();
@@ -14,17 +19,25 @@ $(document).ready(function() {
     if (score >= 13){
       $("#net").fadeIn();
       $('button#home').fadeIn();
+      $('button#quiz').fadeIn();
     } else if (score <= 12 && score >= 8){
       $("#ruby").fadeIn();
       $('button#home').fadeIn();
+      $('button#quiz').fadeIn();
     } else {
       $("#css").fadeIn();
       $('button#home').fadeIn();
+      $('button#quiz').fadeIn();
     }
 
     $('button#home').click(function() {
       $('#outcome').fadeOut();
+      $('#start').fadeIn();
+
+    $('button#quiz').click(function() {
+      $('#outcome').fadeOut();
       $('#stack').fadeIn();
+    });
     });
   });
 });

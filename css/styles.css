@@ -1,3 +1,22 @@
-#net, #ruby, #css, #home {
+#net, #ruby, #css, #home, #stack, #quiz {
   display: none;
+}
+
+.pic {
+  width: 25%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+#netpic {
+  background: green;
+}
+
+#railpic {
+  background: red;
+}
+
+#csspic {
+  background: blue;
 }
