@@ -1,7 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 #net, #ruby, #css, #home, #stack, #quiz {
   display: none;
 }
-
+/* Navbar */
 #navbar {
   position: fixed;
   width: 100%;
@@ -33,21 +39,48 @@
   padding: 14px 45px;
 }
 
+/* Main content */
+.wrap {
+  margin: 0 5%;
+}
+
+.picture {
+  padding: 30px;
+  text-align: center;
+}
+
+.cap {
+  position: relative;
+  margin: 0 auto;
+  padding: 2px;
+  width: 305px;
+  display: inline-block;
+  height: 500px;
+}
 .pic {
-  width: 25%;
+  width: 250px;
   height: 250px;
   background-size: cover;
   background-position: center;
+  display: inline-block;
+  padding: 5px;
+  margin: 15px;
 }
 
-#netpic {
+#pic1 {
   background: green;
 }
 
-#railpic {
+#pic2 {
   background: red;
 }
 
-#csspic {
+#pic3 {
   background: blue;
+}
+
+
+button {
+  margin: 0 auto;
+  width: px;
 }
