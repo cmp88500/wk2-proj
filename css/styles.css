@@ -9,9 +9,18 @@ button {
   height: 50px;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 #net, #ruby, #css, #refresh, #stack, #quiz {
   display: none;
   padding-top: 70px;
+}
+
+#net, #ruby, #css {
+  text-align: center;
 }
 /* Navbar */
 #navbar {
