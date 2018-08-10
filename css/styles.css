@@ -19,9 +19,11 @@ a {
   padding-top: 70px;
 }
 
-#net, #ruby, #css {
+#net, #ruby, #css, #cssreact, #rubyrails, #csharpnet {
   text-align: center;
+  padding-top: 70px;
 }
+
 /* Navbar */
 #navbar {
   position: fixed;
