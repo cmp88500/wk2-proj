@@ -2,6 +2,37 @@
   display: none;
 }
 
+#navbar {
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  position: fixed;
+  float: left;
+  margin: 15px 40px;
+}
+
+#navbar ul {
+  list-style: none;
+  height: 40px;
+  background: rgb(54,180,151);
+  background: linear-gradient(121deg, rgba(54,180,151,1) 0%, rgba(133,198,189,1) 35%, rgba(77,174,169,1) 77%);
+
+}
+
+#navbar ul li {
+    display: inline-block;
+    padding: 10px;
+    float: right;
+}
+
+#navbar ul li a {
+  color: #fff;
+  font-size: 20px;
+  padding: 14px 45px;
+}
+
 .pic {
   width: 25%;
   height: 250px;
