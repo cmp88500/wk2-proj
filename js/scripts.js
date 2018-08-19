@@ -1,19 +1,19 @@
 $(document).ready(function() {
   $('button#quest').click(function() {
     $('#start').fadeOut();
-    $('.picture').fadeOut();
+    $('.buttonMain').fadeOut();
     $('#stack').fadeIn();
   });
 
   $('button#btn').click(function() {
   $('form#stack').submit(function(event) {
     event.preventDefault();
-    var questionOne=$("#questionOne option:selected").val();
-    var questionTwo=$("#questionTwo option:selected").val();
-    var questionThree=$("#questionThree option:selected").val();
-    var questionFour=$("#questionFour option:selected").val();
-    var questionFive=$("#questionFive option:selected").val();
-    var score = parseInt(questionOne) + parseInt(questionTwo) + parseInt(questionThree) + parseInt(questionFour) + parseInt(questionFive);
+    var mathQuestion=$("#mathQuestion option:selected").val();
+    var enjoyQuestion=$("#enjoyQuestion option:selected").val();
+    var artQuestion=$("#artQuestion option:selected").val();
+    var personality=$("#personality option:selected").val();
+    var complexQuestion=$("#complexQuestion option:selected").val();
+    var score = parseInt(mathQuestion) + parseInt(enjoyQuestion) + parseInt(artQuestion) + parseInt(personality) + parseInt(complexQuestion);
     $("#stack").fadeOut();
     console.log(score);
 

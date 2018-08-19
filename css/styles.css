@@ -94,12 +94,12 @@ h5 {
   padding: 70px 20px 10px 20px;
 }
 
-.picture {
+.buttonMain {
   padding: 10px;
   text-align: center;
 }
 
-.cap {
+.stackDesc {
   position: relative;
   margin: 0 auto;
   padding: 2px;
@@ -144,7 +144,7 @@ h5 {
   border-radius: 4px;
 }
 
-@media screen and (max-width: 534px) {
+@media (max-width: 534px) {
   #navbar a:not(:first-child) {
     display: none;
   }}
